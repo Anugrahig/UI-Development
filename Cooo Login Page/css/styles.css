@@ -1,0 +1,201 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  line-height: 1;
+}
+.section-login {
+  /* max-width: 130rem; */
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid-2-cols {
+  grid-template-columns: 36fr 64fr;
+}
+/* /////////////////////////////////////////// */
+/* Hero section */
+/* /////////////////////////////////////////// */
+.hero {
+  margin: 0 auto;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  /* height: 100vh; */
+  color: #fff;
+}
+.text-content {
+  max-width: 130rem; /* Corect value is 130 */
+  margin: 0 auto;
+  padding: 3.2rem 3.2rem;
+}
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 12rem;
+}
+.heading-primary {
+  font-size: 4.8rem;
+  line-height: 1.03;
+  margin-bottom: 14rem;
+}
+
+.copy {
+  color: #f59364;
+  font-size: 1.6rem;
+}
+/* /////////////////////////////////////////// */
+/* login section */
+/* /////////////////////////////////////////// */
+.login {
+  max-width: 130rem; /* Corect value is 130 */
+  margin: 0 auto;
+  padding: 3.2rem 0 3rem 0;
+}
+.header-txt {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 40em;
+  color: #3a3a3a;
+}
+.btn-menu {
+  background-color: #c2a7f3;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.menu-icon {
+  width: 3.2rem;
+  height: 3.2rem;
+  color: #000;
+}
+.header-txt p,
+.header-txt span {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+.header-txt .new-user {
+  color: #3a3a3a;
+}
+.header-txt .account {
+  color: #621a86;
+}
+
+.sign {
+  margin: 6rem 0 0 0;
+}
+
+.heading-teriary {
+  margin-bottom: 3rem;
+}
+.sign-in-form {
+}
+
+.btn-logo {
+  background-color: #621a86;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.6rem;
+  padding: 2rem 3.2rem;
+  border: none;
+  border-radius: 5rem;
+}
+.logo-sect1,
+.logo-sect2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+}
+.gap-helper {
+  display: flex;
+  gap: 2.4rem;
+}
+.btn-mar-bottom {
+  margin-bottom: 3rem;
+}
+.btn-mar-top {
+  margin-top: 3rem;
+}
+hr {
+  border: 2px solid #707070;
+  border-radius: 1rem;
+  width: 10%;
+  display: block;
+}
+.text-para {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.form-input {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  row-gap: 5rem;
+  column-gap: 4rem;
+}
+.sign-in-form .form-label {
+  font-size: 1.4rem;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 1.2rem;
+}
+.sign-in-form input[type="email"],
+.sign-in-form input[type="password"] {
+  width: 80%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  background-color: #c2a7f3;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 2px rgba(55, 148, 240, 0.1);
+  margin-bottom: 2rem;
+}
+.input-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  margin-bottom: 2rem;
+}
+input[type="checkbox"]:checked {
+  background-color: #c2a7f3;
+}
+input[type="checkbox"] {
+  accent-color: #c2a7f3;
+}
+/* input[type="checkbox"] {
+  color: #c2a7f3;
+  background-color: #c2a7f3;
+  accent-color: #c2a7f3;
+  fill: #c2a7f3;
+} */
+.text-forgot {
+  text-align: center;
+}
+.btn-signin {
+  background-color: #621a86;
+  padding: 1rem 8rem;
+  color: #fff;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.text-style {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.color {
+  color: #621a86;
+}
