@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main {
+  max-width: 132rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2.4fr 7.6fr;
+}
+.menu-section {
+  background-color: #2b2c34;
+  height: 100vh;
+}
+.logo-icon {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  padding: 4rem 4rem 0 4rem;
+  margin-bottom: 3.4rem;
+}
+.icon-align {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.icon {
+  padding: 0.74rem 0.74rem;
+
+  /* width: 7.4rem;
+  height: 6.8rem; */
+  background-color: #ff3295;
+  text-align: center;
+  align-self: center;
+  border-radius: 1rem;
+}
+.txtcolor-white {
+  color: #fff;
+}
+.txtcolor-blk {
+  color: #3a3a3a;
+}
+.heading-primary {
+  font-size: 4.8rem;
+  font-weight: 600;
+}
+.heading-secondary {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.list {
+  display: flex;
+  align-items: center;
+  column-gap: 3rem;
+  margin-bottom: 2.2rem;
+  padding-left: 4rem;
+  /* justify-content: center; */
+}
+.heading-tertiary {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.list-align {
+  margin: 0 0 1.4rem 9.2rem;
+  list-style: none;
+}
+
+/*  section 2 */
+.play-section {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 50fr 14fr 36fr;
+}
+.name-section {
+  padding: 1rem 0 0 3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.song-section {
+  background-image: url(../img/music-img.jpg);
+  background-size: 92rem 30rem, cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.sugession-section {
+  margin-bottom: -2rem;
+  display: grid;
+  grid-template-columns: 68fr 32fr;
+}
+.mar-btm-sm {
+  margin-bottom: 1rem;
+}
+.mar-btm-lg {
+  margin-bottom: 4.8rem;
+}
+.icon-menu {
+  margin-left: 0;
+}
+.icn-align {
+  margin-right: 2rem;
+  padding-top: 6rem;
+}
+.artist-section {
+  display: flex;
+  margin: 1rem 0 0 2rem;
+  gap: 1.8rem;
+}
+.menu-icon {
+  align-self: auto;
+}
+.artist-img {
+  width: 7rem;
+  height: 7rem;
+}
+.artist-suggestion {
+  display: grid;
+  grid-template-columns: 68fr 32fr;
+}
